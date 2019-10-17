@@ -1,6 +1,7 @@
 ---
-title: 2019 10 15 Interactive I18n With Activeadmin
-date: 2019-10-17 01:19:49.161000000 Z
+title: multi-tenant, self-service localization interface in Rails and ActiveAdmin
+  using I18n#exception_handler
+date: 2019-10-17 01:19:00 Z
 ---
 
 <br>
