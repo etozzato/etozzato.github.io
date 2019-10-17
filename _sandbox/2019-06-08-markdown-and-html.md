@@ -1,10 +1,12 @@
 ---
-layout: post
 title: Sample Post with Markdown
-subtitle : How markdown is displayed as html
-tags: [HTML, Markdown]
+layout: post
+subtitle: How markdown is displayed as html
+tags:
+- HTML
+- Markdown
 author: Nayeong Kim
-comments : True
+comments: true
 ---
 
 This post show result from awesome Markdown techniques like jekyll. 
