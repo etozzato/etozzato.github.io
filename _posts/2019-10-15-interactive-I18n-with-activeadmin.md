@@ -1,10 +1,14 @@
 ---
+title: multi-tenant, self-service localization interface in Rails and ActiveAdmin
+  using I18n#exception_handler
+date: 2019-10-15 00:00:00 Z
+tags:
+- Rails
+- I18n
 layout: post
-title: multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler
-subtitle: 'AKA there must be something I can delegate to my users.'
-tags: [Rails, I18n]
+subtitle: AKA there must be something I can delegate to my users.
 author: Emanuele Tozzato
-comments : True
+comments: true
 ---
 
 <br>
