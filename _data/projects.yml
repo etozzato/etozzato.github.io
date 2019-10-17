@@ -1,0 +1,18 @@
+- project :
+    print : true
+    modal : false
+    url :  https://www.pharmware.net
+    image : # path: assets/project/
+    date : 2014
+    title : PharmWare
+    summary :
+    description : PharmWare Cannabis LIMS
+- project :
+    print : true
+    modal : false
+    url :  https://www.cannabislims.com/lims.html
+    image : # path: assets/project/
+    date : 2018
+    title : LabFlow
+    summary :
+    description : LabFlow Cannabis LIMS
