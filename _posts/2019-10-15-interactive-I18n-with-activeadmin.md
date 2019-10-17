@@ -4,7 +4,7 @@ title: multi-tenant, self-service localization interface in Rails and ActiveAdmi
 subtitle: 'AKA there must be something I can delegate to my users.'
 tags: [Rails, I18n]
 author: Emanuele Tozzato
-comments : True
+comments : true
 ---
 
 <br>
