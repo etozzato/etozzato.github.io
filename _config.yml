@@ -1,6 +1,6 @@
 ---
-title: Etozzato.Github.Io
-timezone: UTC
+title: etozzato.com
+timezone: WEST
 collections:
   posts:
     title: Posts
@@ -11,10 +11,10 @@ collections:
 baseurl: ''
 url: https://etozzato.github.io
 theme_settings:
-  title: E
+  title: E/TOZZATO
   favicon: assets/favicon.ico
   profile:
-    image: assets/img/smile.png
+    image: assets/img/et980.jpg
     username: E/TOZZATO
     description: makes pizza, writes computer code
     experience:
@@ -68,7 +68,7 @@ paginate_path: blog/page:num
 sass:
   sass_dir: _sass
   style: :compressed
-gems:
+plugins:
 - jekyll-paginate
 bootstrap:
   assets: true

@@ -11,35 +11,55 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
     integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
 
-  <!-- Spoqa Han Sans -->
-  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <style>
+    @font-face {
+      font-family: 'LIMS';
+      src: url('/assets/fonts/LIMS.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'LIMS';
+      src: url('/assets/fonts/LIMSBold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'LIMS';
+      src: url('/assets/fonts/LIMSItalic.ttf') format('truetype');
+      font-weight: normal;
+      font-style: italic;
+    }
+  </style>
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- OG Tag -->
   
-  <meta name="title" content="E-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler" />
+  <meta name="title" content="E/TOZZATO-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler" />
   <meta name="author" content="E/TOZZATO" />
   <meta name="keywords" content="Rails,I18n" />
-  <meta name="description" content="AKA there must be something I can delegate to my users." />
+  <meta name="description" content="AKA there must be something I can delegate to my users, perhaps finding and fixing missing translations" />
   <meta name="robots" content="index,follow" />
 
-  <meta property="og:title" content="E-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler" />
-  <meta property="og:description" content="AKA there must be something I can delegate to my users." />
+  <meta property="og:title" content="E/TOZZATO-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler" />
+  <meta property="og:description" content="AKA there must be something I can delegate to my users, perhaps finding and fixing missing translations" />
   <meta property="og:type" content="website, blog" />
   <meta property="og:image"
-    content="http://localhost:4000/assets/img/smile.png" />
-  <meta property="og:site_name" content="E" />
+    content="http://localhost:4000/assets/img/et980.jpg" />
+  <meta property="og:site_name" content="E/TOZZATO" />
   <meta property="og:url" content="http://localhost:4000/2019/10/15/interactive-I18n-with-activeadmin.html" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="E-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler" />
-  <meta name="twitter:description" content="AKA there must be something I can delegate to my users." />
+  <meta name="twitter:title" content="E/TOZZATO-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler" />
+  <meta name="twitter:description" content="AKA there must be something I can delegate to my users, perhaps finding and fixing missing translations" />
   <meta name="twitter:image"
-    content="http://localhost:4000/assets/img/smile.png" />
+    content="http://localhost:4000/assets/img/et980.jpg" />
 
-  <title>E-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler</title>
+  <title>E/TOZZATO-multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler</title>
 </head>
 <body>
   <div class="container">
@@ -67,15 +87,18 @@
 <div id="post">
   <section class="post-header">
     <h1 class="title">multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler</h1>
-    <p class="subtitle">AKA there must be something I can delegate to my users.</p>
+    <p class="subtitle">AKA there must be something I can delegate to my users, perhaps finding and fixing missing translations</p>
     <p class="meta">
       October 15, 2019
     </p>
   </section>
   <section class="post-content">
-    <p><br /></p>
+    <p>I started thinking that my current Rails application might contain an important number of strings that use the localization helper but are not yet in the language file. 
+<br /><br />
+From the very beginning of the project, a strong effort to localize each bit of the UI was adopted, but the actual translation is lagging and missing translations can be hard to find.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">OmniLogger</span>
+  <span class="c1"># to be continued...</span>
 <span class="k">end</span></code></pre></figure>
 
 
