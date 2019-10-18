@@ -1,13 +1,14 @@
 ---
 layout: post
 title: multi-tenant, self-service localization interface in Rails and ActiveAdmin using I18n#exception_handler
-subtitle: AKA there must be something I can delegate to my users, perhaps finding and fixing missing translations
+subtitle: AKA there must be something I can delegate to my users, perhaps finding and fixing missing translations.
 tags:
 - Rails
 - I18n
-date: 2019-10-15
+layout: post
+subtitle: AKA there must be something I can delegate to my users.
 author: Emanuele Tozzato
-comments : true
+comments: true
 ---
 
 I started thinking that my current Rails application might contain an important number of strings that use the localization helper but are not yet in the language file. 
