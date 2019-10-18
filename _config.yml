@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 baseurl: ''
-url: https://etozzato.github.io
+url: https://www.etozzato.com
 theme_settings:
   title: E/TOZZATO
   favicon: assets/favicon.ico
